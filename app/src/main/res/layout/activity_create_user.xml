@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateUser">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_btu" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="რეგისტრაცია"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_marginBottom="160dp"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center">
+
+
+
+        <EditText
+            android:id="@+id/regel"
+            android:layout_width="300dp"
+            android:background="#83777777"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_height="35dp"
+            android:hint="თქვენი ელფოსტა"/>
+
+        <EditText
+            android:id="@+id/regpass"
+            android:layout_width="300dp"
+            android:background="#83777777"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_height="35dp"
+            android:hint="პაროლი"/>
+
+        <EditText
+            android:id="@+id/regmob"
+            android:layout_width="300dp"
+            android:background="#83777777"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_height="35dp"
+            android:hint="თქვენი მობილური"/>
+
+        <EditText
+            android:id="@+id/regid"
+            android:layout_width="300dp"
+            android:background="#83777777"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_height="35dp"
+            android:hint="პირადი ნომერი"/>
+
+        <EditText
+            android:id="@+id/regadd"
+            android:layout_width="300dp"
+            android:background="#83777777"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_height="35dp"
+            android:hint="საცხოვრებელი ადგილი"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/createuser1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="შექმნა"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="60dp"
+        android:textSize="30sp"/>
+
+</FrameLayout>
